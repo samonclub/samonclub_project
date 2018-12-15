@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void goToConfigPage() {
         Intent intent;
-        intent = new Intent(getApplicationContext(),ConfigActivity.class);
+        intent = new Intent(getApplicationContext(),SettingsActivity.class);
         startActivity(intent);
     }
 }
